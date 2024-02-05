@@ -83,7 +83,7 @@ const Sidebar = () => {
                     ml="15px"
                 >
                     <Typography variant="h3" color={colors.grey[100]}>
-                    ADMINIS
+                    ADMINISTRATOR
                     </Typography>
                     <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                     <MenuOutlinedIcon />
@@ -99,7 +99,7 @@ const Sidebar = () => {
                     alt="profile-user"
                     width="100px"
                     height="100px"
-                    src={`../../assets/user.png`}
+                    src={`../../assets/user.jpg`}
                     style={{ cursor: "pointer", borderRadius: "50%" }}
                     />
                 </Box>
